@@ -8,5 +8,5 @@ clone_depth: 5
 
 # just perform builds for now, don't run tests
 build_script:
-    - cmd: configure.exe -debug -plattform win32-msvc2013
+    - cmd: configure.exe -debug -platform win32-msvc2013
     - cmd: nmake.exe
