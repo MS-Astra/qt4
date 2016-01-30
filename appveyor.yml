@@ -10,5 +10,5 @@ clone_depth: 5
 build_script:
     - CALL "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat"
     - cd C:\projects\qt4
-    - configure.exe -debug -platform win32-msvc2013 -opensource -confirm-license
+    - configure.exe -debug -platform win32-msvc2013 -opensource -confirm-license -fast -no-qt3support -no-openvg -no-dsp -no-vcproj -no-openssl -no-dbus -no-phonon -no-phonon-backend -no-multimedia -no-audio-backend -no-webkit 
     - nmake.exe
